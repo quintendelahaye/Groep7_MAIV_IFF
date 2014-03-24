@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>3527F15C-D9C7-42C0-9474-3426496C7494</string>
+	<string>FE662562-7058-4918-A260-5B98268311AC</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Groep7_MAIV_IFF</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>A60F3A89-1B3E-467C-B342-F415ED003E7D</key>
-		<string>https://github.com/quintendelahaye/Groep7_MAIV_IFF.git</string>
+		<key>F80048F8-3F50-4E69-B76B-33C49C572080</key>
+		<string>https://github.com/quintendelahaye/Groep7_MAIV_IFF</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Groep7_MAIV_IFF.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>A60F3A89-1B3E-467C-B342-F415ED003E7D</key>
+		<key>F80048F8-3F50-4E69-B76B-33C49C572080</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/quintendelahaye/Groep7_MAIV_IFF.git</string>
+	<string>https://github.com/quintendelahaye/Groep7_MAIV_IFF</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>A60F3A89-1B3E-467C-B342-F415ED003E7D</string>
+	<string>F80048F8-3F50-4E69-B76B-33C49C572080</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>A60F3A89-1B3E-467C-B342-F415ED003E7D</string>
+			<string>F80048F8-3F50-4E69-B76B-33C49C572080</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Groep7_MAIV_IFF</string>
 		</dict>
