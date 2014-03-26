@@ -7,6 +7,8 @@
 //
 
 #import "RolesViewController.h"
+#import "Role.h"
+#import "RoleFactory.h"
 
 @interface RolesViewController ()
 
@@ -22,7 +24,7 @@
         self.title = [NSString stringWithFormat:@"Kies een rol"];
         self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg"]];
         
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"tinders" ofType:@"plist"];
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"roles" ofType:@"plist"];
         NSArray *loadedData = [NSArray arrayWithContentsOfFile:path];
         
         
@@ -30,7 +32,8 @@
         self.roles = [NSMutableArray array];
         for(NSDictionary *dict in loadedData){
                 NSLog(@"%@",dict);
-            [self.roles addObject:person];
+            Role *role = [RoleFactory createRoleFromDictionary:dict];
+            [self.roles addObject:role];
         }
         
     }

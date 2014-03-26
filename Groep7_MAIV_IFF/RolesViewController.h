@@ -12,6 +12,6 @@
 @interface RolesViewController : UIViewController
 
 @property (strong,nonatomic)RolesView *view;
-@property (strong,nonatomic)NSArray *roles;
+@property (strong,nonatomic)NSMutableArray *roles;
 
 @end

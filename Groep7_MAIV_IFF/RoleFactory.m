@@ -11,6 +11,12 @@
 @implementation RoleFactory
 
 +(Role*)createRoleFromDictionary:(NSDictionary*)dictionary{
+   
+    Role *role = [[Role alloc] init];
+    role.image_path = [dictionary objectForKey:@"image_path"];
+    role.name_path = [dictionary objectForKey:@"name_path"];
+    
+    return role;
     
 }
 
