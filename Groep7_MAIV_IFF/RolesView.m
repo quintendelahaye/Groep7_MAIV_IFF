@@ -15,8 +15,19 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+        
+        [self placeImages];
+        
+        
+        
     }
     return self;
+}
+
+-(void)placeImages{
+   
+    
+    
 }
 
 /*

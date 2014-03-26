@@ -20,6 +20,19 @@
     if (self) {
         // Custom initialization
         self.title = [NSString stringWithFormat:@"Kies een rol"];
+        self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg"]];
+        
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"tinders" ofType:@"plist"];
+        NSArray *loadedData = [NSArray arrayWithContentsOfFile:path];
+        
+        
+        //          NSLog(@"%@",loadedData);
+        self.roles = [NSMutableArray array];
+        for(NSDictionary *dict in loadedData){
+                NSLog(@"%@",dict);
+            [self.roles addObject:person];
+        }
+        
     }
     return self;
 }

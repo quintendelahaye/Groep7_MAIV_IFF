@@ -10,11 +10,16 @@
 
 @implementation RoleView
 
-- (id)initWithFrame:(CGRect)frame
+- (id)initWithFrame:(CGRect)frame andImageName:(NSString*)imageName
 {
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+        
+        UIImage *image = [UIImage imageNamed:imageName];
+        UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+        imageView.frame = CGRectMake(0, 0, image.size.width, image.size.height);
+        [self addSubview:imageView];
     }
     return self;
 }

@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppNavigationController.h"
 
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong,nonatomic)UINavigationController *navController;
+@property (strong,nonatomic)AppNavigationController *navController;
 
 @end

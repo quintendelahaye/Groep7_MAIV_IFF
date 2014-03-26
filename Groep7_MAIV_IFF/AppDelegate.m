@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+
 #import "RolesViewController.h"
 
 @implementation AppDelegate
@@ -17,21 +18,12 @@
     // Override point for customization after application launch.
     
     RolesViewController *rolesVC = [[RolesViewController alloc] initWithNibName:nil bundle:nil];
-    self.navController = [[UINavigationController alloc] initWithRootViewController:rolesVC];
+    self.navController = [[AppNavigationController alloc] initWithRootViewController:rolesVC];
     self.window.rootViewController = self.navController;
-    self.window.backgroundColor = [UIColor whiteColor];
+
     [self.window makeKeyAndVisible];
     return YES;
 }
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft || interfaceOrientation == UIInterfaceOrientationLandscapeRight);
-}
-
-- (BOOL)shouldAutorotate{
-    return NO;
-}
-
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
