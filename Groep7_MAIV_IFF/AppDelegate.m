@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RolesViewController.h"
 
 @implementation AppDelegate
 
@@ -14,11 +15,23 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    RolesViewController *rolesVC = [[RolesViewController alloc] initWithNibName:nil bundle:nil];
+    self.navController = [[UINavigationController alloc] initWithRootViewController:rolesVC];
+    self.window.rootViewController = self.navController;
     self.window.backgroundColor = [UIColor whiteColor];
-    NSLog(@"Johnny, it works!");
     [self.window makeKeyAndVisible];
     return YES;
 }
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft || interfaceOrientation == UIInterfaceOrientationLandscapeRight);
+}
+
+- (BOOL)shouldAutorotate{
+    return NO;
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -28,7 +41,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 

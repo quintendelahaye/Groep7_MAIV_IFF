@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8195048D18E3109300C46AAD /* RolesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8195048C18E3109300C46AAD /* RolesViewController.m */; };
+		8195049118E3122D00C46AAD /* RolesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8195049018E3122D00C46AAD /* RolesView.m */; };
+		8195049418E3123A00C46AAD /* RoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8195049318E3123A00C46AAD /* RoleView.m */; };
+		81B8E74018E2371400530AD9 /* MapBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E73F18E2371400530AD9 /* MapBoxViewController.m */; };
+		81B8E74418E2391800530AD9 /* MapBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E74318E2391800530AD9 /* MapBoxView.m */; };
 		81EE6C5918E0AB1300FAA682 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EE6C5818E0AB1300FAA682 /* Foundation.framework */; };
 		81EE6C5B18E0AB1300FAA682 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EE6C5A18E0AB1300FAA682 /* CoreGraphics.framework */; };
 		81EE6C5D18E0AB1300FAA682 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EE6C5C18E0AB1300FAA682 /* UIKit.framework */; };
@@ -19,6 +24,9 @@
 		81EE6C7418E0AB1300FAA682 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EE6C5C18E0AB1300FAA682 /* UIKit.framework */; };
 		81EE6C7C18E0AB1300FAA682 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81EE6C7A18E0AB1300FAA682 /* InfoPlist.strings */; };
 		81EE6C7E18E0AB1300FAA682 /* Groep7_MAIV_IFFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EE6C7D18E0AB1300FAA682 /* Groep7_MAIV_IFFTests.m */; };
+		81EE6C8918E1842700FAA682 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EE6C8818E1842700FAA682 /* RotationViewController.m */; };
+		81EE6C8C18E1851900FAA682 /* RotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EE6C8B18E1851900FAA682 /* RotationView.m */; };
+		D58DDB18C7FF490CAAD75872 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 046BD40C884B4992B3FC5D36 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		046BD40C884B4992B3FC5D36 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C5856B00D234E83B3598972 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		8195048B18E3109300C46AAD /* RolesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RolesViewController.h; sourceTree = "<group>"; };
+		8195048C18E3109300C46AAD /* RolesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RolesViewController.m; sourceTree = "<group>"; };
+		8195048F18E3122D00C46AAD /* RolesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RolesView.h; sourceTree = "<group>"; };
+		8195049018E3122D00C46AAD /* RolesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RolesView.m; sourceTree = "<group>"; };
+		8195049218E3123A00C46AAD /* RoleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoleView.h; sourceTree = "<group>"; };
+		8195049318E3123A00C46AAD /* RoleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoleView.m; sourceTree = "<group>"; };
+		81B8E73E18E2371400530AD9 /* MapBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapBoxViewController.h; sourceTree = "<group>"; };
+		81B8E73F18E2371400530AD9 /* MapBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapBoxViewController.m; sourceTree = "<group>"; };
+		81B8E74218E2391800530AD9 /* MapBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapBoxView.h; sourceTree = "<group>"; };
+		81B8E74318E2391800530AD9 /* MapBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapBoxView.m; sourceTree = "<group>"; };
 		81EE6C5518E0AB1300FAA682 /* Groep7_MAIV_IFF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groep7_MAIV_IFF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EE6C5818E0AB1300FAA682 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		81EE6C5A18E0AB1300FAA682 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +68,10 @@
 		81EE6C7918E0AB1300FAA682 /* Groep7_MAIV_IFFTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Groep7_MAIV_IFFTests-Info.plist"; sourceTree = "<group>"; };
 		81EE6C7B18E0AB1300FAA682 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81EE6C7D18E0AB1300FAA682 /* Groep7_MAIV_IFFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Groep7_MAIV_IFFTests.m; sourceTree = "<group>"; };
+		81EE6C8718E1842700FAA682 /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		81EE6C8818E1842700FAA682 /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
+		81EE6C8A18E1851900FAA682 /* RotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationView.h; sourceTree = "<group>"; };
+		81EE6C8B18E1851900FAA682 /* RotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 				81EE6C5B18E0AB1300FAA682 /* CoreGraphics.framework in Frameworks */,
 				81EE6C5D18E0AB1300FAA682 /* UIKit.framework in Frameworks */,
 				81EE6C5918E0AB1300FAA682 /* Foundation.framework in Frameworks */,
+				D58DDB18C7FF490CAAD75872 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +99,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8195048E18E3120700C46AAD /* Roles */ = {
+			isa = PBXGroup;
+			children = (
+				8195048B18E3109300C46AAD /* RolesViewController.h */,
+				8195048C18E3109300C46AAD /* RolesViewController.m */,
+				8195048F18E3122D00C46AAD /* RolesView.h */,
+				8195049018E3122D00C46AAD /* RolesView.m */,
+				8195049218E3123A00C46AAD /* RoleView.h */,
+				8195049318E3123A00C46AAD /* RoleView.m */,
+			);
+			name = Roles;
+			sourceTree = "<group>";
+		};
+		81B8E74118E2371C00530AD9 /* MapBox */ = {
+			isa = PBXGroup;
+			children = (
+				81B8E73E18E2371400530AD9 /* MapBoxViewController.h */,
+				81B8E73F18E2371400530AD9 /* MapBoxViewController.m */,
+				81B8E74218E2391800530AD9 /* MapBoxView.h */,
+				81B8E74318E2391800530AD9 /* MapBoxView.m */,
+			);
+			name = MapBox;
+			sourceTree = "<group>";
+		};
 		81EE6C4C18E0AB1300FAA682 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +130,7 @@
 				81EE6C7718E0AB1300FAA682 /* Groep7_MAIV_IFFTests */,
 				81EE6C5718E0AB1300FAA682 /* Frameworks */,
 				81EE6C5618E0AB1300FAA682 /* Products */,
+				6C5856B00D234E83B3598972 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +150,7 @@
 				81EE6C5A18E0AB1300FAA682 /* CoreGraphics.framework */,
 				81EE6C5C18E0AB1300FAA682 /* UIKit.framework */,
 				81EE6C7118E0AB1300FAA682 /* XCTest.framework */,
+				046BD40C884B4992B3FC5D36 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +162,9 @@
 				81EE6C6818E0AB1300FAA682 /* AppDelegate.m */,
 				81EE6C6A18E0AB1300FAA682 /* Images.xcassets */,
 				81EE6C5F18E0AB1300FAA682 /* Supporting Files */,
+				81EE6C8E18E2329000FAA682 /* Test_rotation */,
+				81B8E74118E2371C00530AD9 /* MapBox */,
+				8195048E18E3120700C46AAD /* Roles */,
 			);
 			path = Groep7_MAIV_IFF;
 			sourceTree = "<group>";
@@ -144,6 +198,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		81EE6C8E18E2329000FAA682 /* Test_rotation */ = {
+			isa = PBXGroup;
+			children = (
+				81EE6C8718E1842700FAA682 /* RotationViewController.h */,
+				81EE6C8818E1842700FAA682 /* RotationViewController.m */,
+				81EE6C8A18E1851900FAA682 /* RotationView.h */,
+				81EE6C8B18E1851900FAA682 /* RotationView.m */,
+			);
+			name = Test_rotation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81EE6C8118E0AB1300FAA682 /* Build configuration list for PBXNativeTarget "Groep7_MAIV_IFF" */;
 			buildPhases = (
+				39731D37ADBC4D96B336D287 /* Check Pods Manifest.lock */,
 				81EE6C5118E0AB1300FAA682 /* Sources */,
 				81EE6C5218E0AB1300FAA682 /* Frameworks */,
 				81EE6C5318E0AB1300FAA682 /* Resources */,
+				CC8C87D3F24B4D798EDBB41C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,13 +301,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39731D37ADBC4D96B336D287 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC8C87D3F24B4D798EDBB41C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		81EE6C5118E0AB1300FAA682 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81EE6C8C18E1851900FAA682 /* RotationView.m in Sources */,
+				81EE6C8918E1842700FAA682 /* RotationViewController.m in Sources */,
+				8195049118E3122D00C46AAD /* RolesView.m in Sources */,
 				81EE6C6918E0AB1300FAA682 /* AppDelegate.m in Sources */,
+				8195049418E3123A00C46AAD /* RoleView.m in Sources */,
+				8195048D18E3109300C46AAD /* RolesViewController.m in Sources */,
+				81B8E74418E2391800530AD9 /* MapBoxView.m in Sources */,
 				81EE6C6518E0AB1300FAA682 /* main.m in Sources */,
+				81B8E74018E2371400530AD9 /* MapBoxViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +465,7 @@
 		};
 		81EE6C8218E0AB1300FAA682 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5856B00D234E83B3598972 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -371,6 +479,7 @@
 		};
 		81EE6C8318E0AB1300FAA682 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5856B00D234E83B3598972 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -443,6 +552,7 @@
 				81EE6C8318E0AB1300FAA682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81EE6C8418E0AB1300FAA682 /* Build configuration list for PBXNativeTarget "Groep7_MAIV_IFFTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +561,7 @@
 				81EE6C8618E0AB1300FAA682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
