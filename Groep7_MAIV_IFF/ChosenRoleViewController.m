@@ -9,6 +9,7 @@
 #import "ChosenRoleViewController.h"
 #import "Role.h"
 #import "MapBoxViewController.h"
+#import "InfoViewController.h"
 
 @interface ChosenRoleViewController ()
 
@@ -21,6 +22,9 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        
+        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks target:self action:@selector(infoButtonTapped:)];
+        
         self.role = role;
         self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg"]];
         self.title = [NSString stringWithFormat:@"%@",self.role.name];
@@ -53,6 +57,11 @@
 -(void)loadView{
     CGRect bounds = CGRectMake(0, 0, 1024, 768);
     self.view = [[ChosenRoleView alloc] initWithFrame:bounds];
+}
+
+-(void)infoButtonTapped:(id)sender{
+    InfoViewController *infoVC = [[InfoViewController alloc] initWithNibName:nil bundle:nil];
+    [self.navigationController pushViewController:infoVC animated:YES];
 }
 
 @end

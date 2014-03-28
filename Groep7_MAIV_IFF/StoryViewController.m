@@ -8,6 +8,7 @@
 
 #import "StoryViewController.h"
 #import "Story.h"
+#import "InfoViewController.h"
 
 @interface StoryViewController ()
 
@@ -20,6 +21,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        
+        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks target:self action:@selector(infoButtonTapped:)];
         
         self.title = story.title;
         
@@ -47,6 +50,11 @@
 -(void)loadView{
     CGRect bounds = CGRectMake(0, 0, 1024, 768);
     self.view = [[StoryView alloc] initWithFrame:bounds andStory:self.story];
+}
+
+-(void)infoButtonTapped:(id)sender{
+    InfoViewController *infoVC = [[InfoViewController alloc] initWithNibName:nil bundle:nil];
+    [self.navigationController pushViewController:infoVC animated:YES];
 }
 
 @end

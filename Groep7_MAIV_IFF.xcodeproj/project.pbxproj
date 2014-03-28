@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81121F8818E5CE4E00FDF53E /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81121F8718E5CE4E00FDF53E /* InfoViewController.m */; };
+		81121F8B18E5CEA700FDF53E /* InfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81121F8A18E5CEA700FDF53E /* InfoView.m */; };
+		81121F8E18E61E0200FDF53E /* FeedbackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81121F8D18E61E0200FDF53E /* FeedbackView.m */; };
+		81121F9118E61E1200FDF53E /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81121F9018E61E1200FDF53E /* FeedbackViewController.m */; };
 		814E992518E52B9600D99611 /* StoryFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 814E992418E52B9600D99611 /* StoryFactory.m */; };
 		814E992818E52B9F00D99611 /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = 814E992718E52B9F00D99611 /* Story.m */; };
 		814E992D18E58B4E00D99611 /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814E992C18E58B4E00D99611 /* StoryViewController.m */; };
@@ -53,6 +57,14 @@
 /* Begin PBXFileReference section */
 		046BD40C884B4992B3FC5D36 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C5856B00D234E83B3598972 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		81121F8618E5CE4E00FDF53E /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		81121F8718E5CE4E00FDF53E /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		81121F8918E5CEA700FDF53E /* InfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoView.h; sourceTree = "<group>"; };
+		81121F8A18E5CEA700FDF53E /* InfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoView.m; sourceTree = "<group>"; };
+		81121F8C18E61E0200FDF53E /* FeedbackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackView.h; sourceTree = "<group>"; };
+		81121F8D18E61E0200FDF53E /* FeedbackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackView.m; sourceTree = "<group>"; };
+		81121F8F18E61E1200FDF53E /* FeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = "<group>"; };
+		81121F9018E61E1200FDF53E /* FeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = "<group>"; };
 		811EE76618E4F678008D7F68 /* ChosenRoleViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChosenRoleViewDelegate.h; sourceTree = "<group>"; };
 		814E992318E52B9600D99611 /* StoryFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryFactory.h; sourceTree = "<group>"; };
 		814E992418E52B9600D99611 /* StoryFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryFactory.m; sourceTree = "<group>"; };
@@ -232,6 +244,14 @@
 				818E428918E4747F008649E4 /* ChosenRole */,
 				81B8E74118E2371C00530AD9 /* MapBox */,
 				81EE6C8E18E2329000FAA682 /* Test_rotation */,
+				81121F8618E5CE4E00FDF53E /* InfoViewController.h */,
+				81121F8718E5CE4E00FDF53E /* InfoViewController.m */,
+				81121F8918E5CEA700FDF53E /* InfoView.h */,
+				81121F8A18E5CEA700FDF53E /* InfoView.m */,
+				81121F8F18E61E1200FDF53E /* FeedbackViewController.h */,
+				81121F9018E61E1200FDF53E /* FeedbackViewController.m */,
+				81121F8C18E61E0200FDF53E /* FeedbackView.h */,
+				81121F8D18E61E0200FDF53E /* FeedbackView.m */,
 			);
 			path = Groep7_MAIV_IFF;
 			sourceTree = "<group>";
@@ -414,6 +434,7 @@
 				814E993018E58B6000D99611 /* StoryView.m in Sources */,
 				818E428F18E474AF008649E4 /* ChosenRoleView.m in Sources */,
 				8195049118E3122D00C46AAD /* RolesView.m in Sources */,
+				81121F8E18E61E0200FDF53E /* FeedbackView.m in Sources */,
 				81EE6C6918E0AB1300FAA682 /* AppDelegate.m in Sources */,
 				8195049418E3123A00C46AAD /* RoleView.m in Sources */,
 				814E992818E52B9F00D99611 /* Story.m in Sources */,
@@ -423,8 +444,11 @@
 				818E428818E43BE5008649E4 /* ChooseRoleViewController.m in Sources */,
 				81B8E74418E2391800530AD9 /* MapBoxView.m in Sources */,
 				814E992D18E58B4E00D99611 /* StoryViewController.m in Sources */,
+				81121F9118E61E1200FDF53E /* FeedbackViewController.m in Sources */,
 				81EE6C6518E0AB1300FAA682 /* main.m in Sources */,
+				81121F8B18E5CEA700FDF53E /* InfoView.m in Sources */,
 				818E428018E33D6F008649E4 /* RoleFactory.m in Sources */,
+				81121F8818E5CE4E00FDF53E /* InfoViewController.m in Sources */,
 				81B8E74018E2371400530AD9 /* MapBoxViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,6 +10,7 @@
 #import "Role.h"
 #import "RoleFactory.h"
 #import "ChosenRoleViewController.h"
+#import "InfoViewController.h"
 
 @interface ChooseRoleViewController ()
 
@@ -26,6 +27,7 @@
         self.title = [NSString stringWithFormat:@"Kies een rol"];
         self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg"]];
         self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks target:self action:@selector(infoButtonTapped:)];
+                self.navigationItem.hidesBackButton = YES;
         
     }
     return self;
@@ -76,7 +78,8 @@
 }
 
 -(void)infoButtonTapped:(id)sender{
-    
+    InfoViewController *infoVC = [[InfoViewController alloc] initWithNibName:nil bundle:nil];
+    [self.navigationController pushViewController:infoVC animated:YES];
 }
 
 @end

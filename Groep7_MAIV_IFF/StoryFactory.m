@@ -21,6 +21,7 @@
     story.title = [dictionary objectForKey:@"title"];
     story.story_step = [dictionary objectForKey:@"story_step"];
     story.image_path = [dictionary objectForKey:@"image_path"];
+    story.story_tobeviewed = NO;
     return story;
     
 }

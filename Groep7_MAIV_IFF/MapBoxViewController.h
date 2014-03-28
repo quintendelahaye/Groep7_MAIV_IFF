@@ -17,6 +17,4 @@
 
 @property (strong,nonatomic)MapBoxView *view;
 
-
-
 @end

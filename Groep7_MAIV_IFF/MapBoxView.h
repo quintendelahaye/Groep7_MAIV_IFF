@@ -10,6 +10,7 @@
 #import <RMMapView.h>
 #import "Story.h"
 #import "MapBoxViewDelegate.h"
+#import <RMAnnotation.h>
 
 @interface MapBoxView : UIView <RMMapViewDelegate>
 
@@ -20,6 +21,13 @@
 @property (strong,nonatomic)RMMapView *mapView;
 
 @property (strong,nonatomic)NSMutableArray *stories;
+
+@property (strong,nonatomic)RMAnnotation *annotation;
+
+@property (nonatomic)BOOL showPhotos;
+@property (nonatomic)BOOL walk_completed;
+
+@property (strong,nonatomic)UIButton *wandelingButton;
 
 -(void)showMarkers;
 

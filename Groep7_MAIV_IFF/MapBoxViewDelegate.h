@@ -13,5 +13,6 @@
 
 @required
 -(void)showStory:(Story*)story;
+-(void)showFeedBack;
 
 @end

@@ -17,5 +17,6 @@
 @property (strong,nonatomic)NSString *story;
 @property (strong,nonatomic)NSString *title;
 @property (strong,nonatomic)NSString *image_path;
+@property (nonatomic)BOOL story_tobeviewed;
 
 @end

@@ -11,6 +11,8 @@
 #import "Story.h"
 #import "StoryFactory.h"
 #import "StoryViewController.h"
+#import "InfoViewController.h"
+#import "FeedbackViewController.h"
 
 @interface MapBoxViewController ()
 
@@ -23,7 +25,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        
+        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks target:self action:@selector(infoButtonTapped:)];
         self.title = [NSString stringWithFormat:@"%@ wandelroute",role.name];
         
     }
@@ -39,7 +41,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-//    [self.view setMultipleTouchEnabled:YES];
+    //    [self.view setMultipleTouchEnabled:YES];
     self.view.delegate = self;
     
     NSString *path = @"http://student.howest.be/john-alexander.kol1/20132014/MAIV/ieper_api/api/story";
@@ -51,20 +53,20 @@
     operation.responseSerializer = [AFJSONResponseSerializer serializer];
     
     [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
-//        NSLog(@"Loaded data");
+        //        NSLog(@"Loaded data");
         self.view.stories = [NSMutableArray array];
         for (NSDictionary *dict in responseObject) {
             Story *story = [StoryFactory createStoryFromDictionary:dict];
             [self.view.stories addObject:story];
         }
         [self.view showMarkers];
-//        NSLog(@"[MapBoxViewController] stories: %@",self.view.stories);
+        //        NSLog(@"[MapBoxViewController] stories: %@",self.view.stories);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-//        NSLog(@"Error Loaded data");
+        //        NSLog(@"Error Loaded data");
     }];
     
     [operation start];
-
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -83,6 +85,16 @@
     [self.navigationController pushViewController:storyVC animated:YES];
 }
 
+
+-(void)infoButtonTapped:(id)sender{
+    InfoViewController *infoVC = [[InfoViewController alloc] initWithNibName:nil bundle:nil];
+    [self.navigationController pushViewController:infoVC animated:YES];
+}
+
+-(void)showFeedBack{
+    FeedbackViewController *feedbackVC = [[FeedbackViewController alloc] initWithNibName:nil bundle:nil];
+    [self.navigationController pushViewController:feedbackVC animated:YES];
+}
 
 
 @end
