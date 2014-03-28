@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "RolesViewController.h"
+#import "ChooseRoleViewController.h"
 
 @implementation AppDelegate
 
@@ -17,8 +17,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    RolesViewController *rolesVC = [[RolesViewController alloc] initWithNibName:nil bundle:nil];
-    self.navController = [[AppNavigationController alloc] initWithRootViewController:rolesVC];
+    ChooseRoleViewController *chooseRolesVC = [[ChooseRoleViewController alloc] initWithNibName:nil bundle:nil];
+    self.navController = [[AppNavigationController alloc] initWithRootViewController:chooseRolesVC];
     self.window.rootViewController = self.navController;
 
     [self.window makeKeyAndVisible];

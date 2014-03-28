@@ -10,7 +10,11 @@
 		818E427A18E3362B008649E4 /* roles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 818E427918E3362B008649E4 /* roles.plist */; };
 		818E427D18E33D5B008649E4 /* Role.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E427C18E33D5B008649E4 /* Role.m */; };
 		818E428018E33D6F008649E4 /* RoleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E427F18E33D6F008649E4 /* RoleFactory.m */; };
-		8195048D18E3109300C46AAD /* RolesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8195048C18E3109300C46AAD /* RolesViewController.m */; };
+		818E428218E41E82008649E4 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818E428118E41E82008649E4 /* images.xcassets */; };
+		818E428518E43749008649E4 /* ChooseRoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E428418E43749008649E4 /* ChooseRoleView.m */; };
+		818E428818E43BE5008649E4 /* ChooseRoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E428718E43BE5008649E4 /* ChooseRoleViewController.m */; };
+		818E428C18E4749B008649E4 /* ChosenRoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E428B18E4749B008649E4 /* ChosenRoleViewController.m */; };
+		818E428F18E474AF008649E4 /* ChosenRoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E428E18E474AF008649E4 /* ChosenRoleView.m */; };
 		8195049118E3122D00C46AAD /* RolesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8195049018E3122D00C46AAD /* RolesView.m */; };
 		8195049418E3123A00C46AAD /* RoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8195049318E3123A00C46AAD /* RoleView.m */; };
 		8195049718E323BE00C46AAD /* AppNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8195049618E323BE00C46AAD /* AppNavigationController.m */; };
@@ -22,7 +26,6 @@
 		81EE6C6318E0AB1300FAA682 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81EE6C6118E0AB1300FAA682 /* InfoPlist.strings */; };
 		81EE6C6518E0AB1300FAA682 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EE6C6418E0AB1300FAA682 /* main.m */; };
 		81EE6C6918E0AB1300FAA682 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EE6C6818E0AB1300FAA682 /* AppDelegate.m */; };
-		81EE6C6B18E0AB1300FAA682 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EE6C6A18E0AB1300FAA682 /* Images.xcassets */; };
 		81EE6C7218E0AB1300FAA682 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EE6C7118E0AB1300FAA682 /* XCTest.framework */; };
 		81EE6C7318E0AB1300FAA682 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EE6C5818E0AB1300FAA682 /* Foundation.framework */; };
 		81EE6C7418E0AB1300FAA682 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EE6C5C18E0AB1300FAA682 /* UIKit.framework */; };
@@ -51,8 +54,16 @@
 		818E427C18E33D5B008649E4 /* Role.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Role.m; sourceTree = "<group>"; };
 		818E427E18E33D6F008649E4 /* RoleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoleFactory.h; sourceTree = "<group>"; };
 		818E427F18E33D6F008649E4 /* RoleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoleFactory.m; sourceTree = "<group>"; };
-		8195048B18E3109300C46AAD /* RolesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RolesViewController.h; sourceTree = "<group>"; };
-		8195048C18E3109300C46AAD /* RolesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RolesViewController.m; sourceTree = "<group>"; };
+		818E428118E41E82008649E4 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		818E428318E43749008649E4 /* ChooseRoleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseRoleView.h; sourceTree = "<group>"; };
+		818E428418E43749008649E4 /* ChooseRoleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseRoleView.m; sourceTree = "<group>"; };
+		818E428618E43BE5008649E4 /* ChooseRoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseRoleViewController.h; sourceTree = "<group>"; };
+		818E428718E43BE5008649E4 /* ChooseRoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseRoleViewController.m; sourceTree = "<group>"; };
+		818E428A18E4749B008649E4 /* ChosenRoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChosenRoleViewController.h; sourceTree = "<group>"; };
+		818E428B18E4749B008649E4 /* ChosenRoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChosenRoleViewController.m; sourceTree = "<group>"; };
+		818E428D18E474AF008649E4 /* ChosenRoleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChosenRoleView.h; sourceTree = "<group>"; };
+		818E428E18E474AF008649E4 /* ChosenRoleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChosenRoleView.m; sourceTree = "<group>"; };
+		818E429018E47508008649E4 /* ChooseRoleViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseRoleViewDelegate.h; sourceTree = "<group>"; };
 		8195048F18E3122D00C46AAD /* RolesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RolesView.h; sourceTree = "<group>"; };
 		8195049018E3122D00C46AAD /* RolesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RolesView.m; sourceTree = "<group>"; };
 		8195049218E3123A00C46AAD /* RoleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoleView.h; sourceTree = "<group>"; };
@@ -73,7 +84,6 @@
 		81EE6C6618E0AB1300FAA682 /* Groep7_MAIV_IFF-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Groep7_MAIV_IFF-Prefix.pch"; sourceTree = "<group>"; };
 		81EE6C6718E0AB1300FAA682 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		81EE6C6818E0AB1300FAA682 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		81EE6C6A18E0AB1300FAA682 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		81EE6C7018E0AB1300FAA682 /* Groep7_MAIV_IFFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Groep7_MAIV_IFFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EE6C7118E0AB1300FAA682 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		81EE6C7918E0AB1300FAA682 /* Groep7_MAIV_IFFTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Groep7_MAIV_IFFTests-Info.plist"; sourceTree = "<group>"; };
@@ -110,11 +120,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		818E428918E4747F008649E4 /* ChosenRole */ = {
+			isa = PBXGroup;
+			children = (
+				818E428A18E4749B008649E4 /* ChosenRoleViewController.h */,
+				818E428B18E4749B008649E4 /* ChosenRoleViewController.m */,
+				818E428D18E474AF008649E4 /* ChosenRoleView.h */,
+				818E428E18E474AF008649E4 /* ChosenRoleView.m */,
+			);
+			name = ChosenRole;
+			sourceTree = "<group>";
+		};
 		8195048E18E3120700C46AAD /* Roles */ = {
 			isa = PBXGroup;
 			children = (
-				8195048B18E3109300C46AAD /* RolesViewController.h */,
-				8195048C18E3109300C46AAD /* RolesViewController.m */,
+				818E429018E47508008649E4 /* ChooseRoleViewDelegate.h */,
+				818E428618E43BE5008649E4 /* ChooseRoleViewController.h */,
+				818E428718E43BE5008649E4 /* ChooseRoleViewController.m */,
+				818E428318E43749008649E4 /* ChooseRoleView.h */,
+				818E428418E43749008649E4 /* ChooseRoleView.m */,
 				8195048F18E3122D00C46AAD /* RolesView.h */,
 				8195049018E3122D00C46AAD /* RolesView.m */,
 				8195049218E3123A00C46AAD /* RoleView.h */,
@@ -176,11 +200,12 @@
 			children = (
 				81EE6C6718E0AB1300FAA682 /* AppDelegate.h */,
 				81EE6C6818E0AB1300FAA682 /* AppDelegate.m */,
-				81EE6C6A18E0AB1300FAA682 /* Images.xcassets */,
+				818E428118E41E82008649E4 /* images.xcassets */,
 				81EE6C5F18E0AB1300FAA682 /* Supporting Files */,
 				8195049518E323BE00C46AAD /* AppNavigationController.h */,
 				8195049618E323BE00C46AAD /* AppNavigationController.m */,
 				8195048E18E3120700C46AAD /* Roles */,
+				818E428918E4747F008649E4 /* ChosenRole */,
 				81EE6C8E18E2329000FAA682 /* Test_rotation */,
 				81B8E74118E2371C00530AD9 /* MapBox */,
 			);
@@ -304,8 +329,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				818E428218E41E82008649E4 /* images.xcassets in Resources */,
 				81EE6C6318E0AB1300FAA682 /* InfoPlist.strings in Resources */,
-				81EE6C6B18E0AB1300FAA682 /* Images.xcassets in Resources */,
 				818E427A18E3362B008649E4 /* roles.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,11 +386,14 @@
 				81EE6C8C18E1851900FAA682 /* RotationView.m in Sources */,
 				818E427D18E33D5B008649E4 /* Role.m in Sources */,
 				81EE6C8918E1842700FAA682 /* RotationViewController.m in Sources */,
+				818E428F18E474AF008649E4 /* ChosenRoleView.m in Sources */,
 				8195049118E3122D00C46AAD /* RolesView.m in Sources */,
 				81EE6C6918E0AB1300FAA682 /* AppDelegate.m in Sources */,
 				8195049418E3123A00C46AAD /* RoleView.m in Sources */,
 				8195049718E323BE00C46AAD /* AppNavigationController.m in Sources */,
-				8195048D18E3109300C46AAD /* RolesViewController.m in Sources */,
+				818E428518E43749008649E4 /* ChooseRoleView.m in Sources */,
+				818E428C18E4749B008649E4 /* ChosenRoleViewController.m in Sources */,
+				818E428818E43BE5008649E4 /* ChooseRoleViewController.m in Sources */,
 				81B8E74418E2391800530AD9 /* MapBoxView.m in Sources */,
 				81EE6C6518E0AB1300FAA682 /* main.m in Sources */,
 				818E428018E33D6F008649E4 /* RoleFactory.m in Sources */,

@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Role.h"
 
 @interface RoleView : UIView
+
+- (id)initWithFrame:(CGRect)frame andRole:(Role*)role;
+
+@property (nonatomic)CGFloat imageWidth;
+@property (nonatomic)CGFloat imageHeight;
+
+@property (strong,nonatomic)UIImage *image;
+
+@property (strong,nonatomic)Role *role;
 
 @end

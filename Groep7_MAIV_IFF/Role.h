@@ -10,7 +10,15 @@
 
 @interface Role : NSObject
 
+@property (strong,nonatomic)NSString *name;
+
 @property (strong,nonatomic)NSString *name_path;
 @property (strong,nonatomic)NSString *image_path;
+
+@property(nonatomic)CGFloat width;
+@property(nonatomic)CGFloat height;
+
+@property(nonatomic)CGFloat retina_width;
+@property(nonatomic)CGFloat retina_height;
 
 @end

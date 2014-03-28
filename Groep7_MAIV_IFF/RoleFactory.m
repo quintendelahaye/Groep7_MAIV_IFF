@@ -13,8 +13,13 @@
 +(Role*)createRoleFromDictionary:(NSDictionary*)dictionary{
    
     Role *role = [[Role alloc] init];
+    role.name = [dictionary objectForKey:@"name"];
     role.image_path = [dictionary objectForKey:@"image_path"];
     role.name_path = [dictionary objectForKey:@"name_path"];
+    role.width = [[dictionary objectForKey:@"width"] floatValue];
+    role.height = [[dictionary objectForKey:@"height"] floatValue];
+    role.retina_width = [[dictionary objectForKey:@"retina_width"] floatValue];
+    role.retina_height = [[dictionary objectForKey:@"retina_height"] floatValue];
     
     return role;
     

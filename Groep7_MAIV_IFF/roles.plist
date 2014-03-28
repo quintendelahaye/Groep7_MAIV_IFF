@@ -3,22 +3,52 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>name</key>
+		<string>piloot</string>
+		<key>retina_width</key>
+		<string>686</string>
+		<key>width</key>
+		<string>343</string>
+		<key>retina_height</key>
+		<string>969</string>
+		<key>height</key>
+		<string>484</string>
 		<key>name_path</key>
 		<string>rol_namePiloot</string>
 		<key>image_path</key>
 		<string>rol_picPiloot</string>
 	</dict>
 	<dict>
-		<key>name_path</key>
-		<string>rol_nameHospik</string>
-		<key>image_path</key>
-		<string>rol_picHospik</string>
-	</dict>
-	<dict>
+		<key>name</key>
+		<string>soldaat</string>
+		<key>height</key>
+		<string>484</string>
+		<key>retina_height</key>
+		<string>969</string>
+		<key>width</key>
+		<string>343</string>
+		<key>retina_width</key>
+		<string>686</string>
 		<key>name_path</key>
 		<string>rol_nameSoldaat</string>
 		<key>image_path</key>
 		<string>rol_picSoldaat</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>hospik</string>
+		<key>height</key>
+		<string>484</string>
+		<key>retina_height</key>
+		<string>969</string>
+		<key>width</key>
+		<string>343</string>
+		<key>retina_width</key>
+		<string>686</string>
+		<key>name_path</key>
+		<string>rol_nameHospik</string>
+		<key>image_path</key>
+		<string>rol_picHospik</string>
 	</dict>
 </array>
 </plist>

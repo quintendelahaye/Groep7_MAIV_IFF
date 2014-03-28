@@ -10,4 +10,8 @@
 
 @interface RolesView : UIView
 
+- (id)initWithFrame:(CGRect)frame andRoles:(NSMutableArray*)roles;
+
+@property (strong,nonatomic)NSMutableArray *roleViews;
+
 @end
