@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AFNetworking.h>
 #import "MapBoxView.h"
+#import "Role.h"
 
-@interface MapBoxViewController : UIViewController
+@interface MapBoxViewController : UIViewController<MapBoxViewDelegate>
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andRole:(Role*)role;
 
 @property (strong,nonatomic)MapBoxView *view;
+
 
 
 @end

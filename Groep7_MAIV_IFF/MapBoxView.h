@@ -8,9 +8,19 @@
 
 #import <UIKit/UIKit.h>
 #import <RMMapView.h>
+#import "Story.h"
+#import "MapBoxViewDelegate.h"
 
-@interface MapBoxView : UIView
+@interface MapBoxView : UIView <RMMapViewDelegate>
+
+@property (nonatomic, weak)id<MapBoxViewDelegate>delegate;
+
+@property (strong,nonatomic)Story *selectedStory;
 
 @property (strong,nonatomic)RMMapView *mapView;
+
+@property (strong,nonatomic)NSMutableArray *stories;
+
+-(void)showMarkers;
 
 @end

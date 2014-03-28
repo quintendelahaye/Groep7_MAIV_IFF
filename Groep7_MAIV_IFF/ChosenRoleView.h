@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ChosenRoleViewDelegate.h"
 #import "Role.h"
 
 @interface ChosenRoleView : UIView
@@ -18,5 +19,7 @@
 @property (strong,nonatomic)UIImageView *imageView;
 @property (strong,nonatomic)Role *role;
 @property (strong,nonatomic)UIButton *startButton;
+
+@property(weak, nonatomic)id<ChosenRoleViewDelegate>delegate;
 
 @end

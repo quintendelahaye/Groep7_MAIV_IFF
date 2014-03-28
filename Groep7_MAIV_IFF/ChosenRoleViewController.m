@@ -8,6 +8,7 @@
 
 #import "ChosenRoleViewController.h"
 #import "Role.h"
+#import "MapBoxViewController.h"
 
 @interface ChosenRoleViewController ()
 
@@ -22,15 +23,22 @@
         // Custom initialization
         self.role = role;
         self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg"]];
-        self.title = [NSString stringWithFormat:@"Je hebt gekozen voor %@",self.role.name];
+        self.title = [NSString stringWithFormat:@"%@",self.role.name];
     }
     return self;
+}
+
+-(void)showMapBoxView{
+    NSLog(@"showMapBoxView");
+    MapBoxViewController *mapBoxVC = [[MapBoxViewController alloc] initWithNibName:Nil bundle:nil andRole:self.role];
+    [self.navigationController pushViewController:mapBoxVC animated:YES];
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.view.delegate = self;
     self.view.role = self.role;
     NSLog(@"%@",self.view.role.name);
     [self.view showDetailPage];

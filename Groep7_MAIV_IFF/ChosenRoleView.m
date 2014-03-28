@@ -49,7 +49,7 @@
                                               otherButtonTitles:nil];
         [alert show];
     }else{
-        
+        [self.delegate showMapBoxView];
     }
     
     

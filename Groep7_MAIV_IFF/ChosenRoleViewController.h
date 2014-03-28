@@ -10,7 +10,7 @@
 #import "ChosenRoleView.h"
 #import "Role.h"
 
-@interface ChosenRoleViewController : UIViewController
+@interface ChosenRoleViewController : UIViewController<ChosenRoleViewDelegate>
 
 @property (strong,nonatomic)ChosenRoleView *view;
 
